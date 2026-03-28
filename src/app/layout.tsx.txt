@@ -1,0 +1,15 @@
+import "./globals.css";
+import type { ReactNode } from "react";
+
+export const metadata = {
+  title: "Bridges Leadership Transition Assessment",
+  description: "A Bridges-informed leadership self-assessment for guiding teams through transition."
+};
+
+export default function RootLayout({ children }: { children: ReactNode }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
